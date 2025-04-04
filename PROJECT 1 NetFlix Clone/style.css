@@ -237,8 +237,20 @@ footer {
     padding: 34px 0px;
 }
 
-@media screen and (max-width: 1300px) {
 
+
+@media screen and (max-width: 1300px) {
+    nev .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        grid: 25px;
+    }
+
+    .hero>:nth-child(1) {
+        font-size: 32px;
+
+    }
     .first {
         flex-wrap: wrap;
     }
@@ -251,21 +263,6 @@ footer {
 
     .secImg video {
         width: 305px;
-
-    }
-
-}
-
-@media screen and (max-width: 1300px) {
-    nev .footer {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-
-        grid: 25px;
-    }
-
-    .hero>:nth-child(1) {
-        font-size: 32px;
 
     }
 
